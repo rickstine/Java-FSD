@@ -34,6 +34,19 @@ Heap & Garbage collector.
   - JVM interprets/compiles bytecode at runtime for execution
   - Just-In-Time compiler increases execution speed
 ------------------------------------------------------------------------------------------------------------------------------
+- Every Java program must be inside a class with a class name.
+
+- The main method in Java:
+  - `public`
+    - Makes the function accessible globally across all programs.
+  - `static`
+    - Lets you access the method without creating an object of the class.
+  - `void`
+    -is The return type—main this means main does not return any value.
+  - `main(String[] args)`
+    - `main` is the function called by the JVM.
+    - `String[] args` holds command line arguments.
+------------------------------------------------------------------------------------------------------------------------------
 - **Java Primitive Data Types:**
   - **Integer Types:**
     - `byte` (1 byte)
@@ -74,3 +87,16 @@ Data Operations
  -  `||` Or
  -  `!`  Not
  ------------------------------------------------------------------------------------------------------------------
+- **for loop syntax:**
+  - `for (initialization; condition; expression)`
+    - **initialization**: set up variable, runs once at start
+    - **condition**: checked before each loop, loop runs if true
+    - **expression**: update variable (increment/decrement), runs after each loop iteration
+
+- **for loop flow:**
+  - Start
+  - Initialization of variable
+  - Check condition:
+    - If **true**: execute statements → increment/decrement → repeat
+    - If **false**: stop loop
+---------------------------------------------------------------------------------------------------------------------
